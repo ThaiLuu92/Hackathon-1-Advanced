@@ -63,11 +63,11 @@ display: inline-block; margin: 5px;}
 
 /* CSS Main 4 */
 
-#main-4 {text-align: center; width: 100%;}
+#main-4 { width: 100%;}
 
 .main-4-grid { display: grid; grid-template-columns: 1fr 1fr;
  padding: 10px; gap: 10px ; }
-
+.main-4-buttom {width: 100%; text-align: center;}
 .main-4-buttom button {background-color: #F69579; border: none; 
 color: white; padding: 10px; margin: 20px 0 ; }
 
@@ -89,14 +89,19 @@ color: white; padding: 10px; margin: 20px 0 ; }
 
 /* CSS Main 6 */
 #main-6 {background-color: #79CCC8; width: 100%; position: relative; color: white;}
-.main-6-content {width: 59%; display: inline-block;}
+.main-6-content {width: 59%; display: inline-block; padding: 15px 10px;}
 .main-6-navbar{width: 39%;display: inline-block; padding: 15px 10px;vertical-align: top;}
-.main-6-navbar > ul > li {list-style-type: none;}
+.main-6-navbar > ul > li {list-style-type: none; margin-left: 25%;}
 .main-6-navbar > ul > li a {color: white;}
 
 .main-6-content > * {display: inline-block;}
-.main-6-content-1 {width: 60%;}
+.main-6-content-1 {width: 50%;}
 .main-6-content-2 {width: 39%;vertical-align: top}
+.main-6-icon {width: 100%; text-align: center;}
+.main-6-icon img {margin: 40px 0;}
+
+.main-6-copy {width: 100%; text-align: center;}
+.main-6-copy p {padding: 30px 10px;}
 
 
 
